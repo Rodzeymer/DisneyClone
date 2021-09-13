@@ -1,0 +1,27 @@
+let movies = [
+    {
+        name:'',
+        des:'',
+        img:''
+    },
+    {
+        name:'',
+        des:'',
+        img:''
+    },
+    {
+        name:'',
+        des:'',
+        img:''
+    }, 
+    {
+        name:'',
+        des:'',
+        img:''
+    },
+    {
+        name:'',
+        des:'',
+        img:''
+    }
+]
