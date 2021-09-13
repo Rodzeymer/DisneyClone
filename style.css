@@ -124,7 +124,8 @@ body{
     min-height: 100%;
     object-fit: cover;
     display: block;
-    margin-left: auto;    
+    margin-left: auto;  
+    z-index: 100;  
 }
 
 .slide-content{
