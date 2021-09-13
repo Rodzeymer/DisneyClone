@@ -1,27 +1,27 @@
 let movies = [
     {
-        name:'',
-        des:'',
-        img:''
+        name:'Falcão e o Soldado Invernal',
+        des:'lorem',
+        img:'.images/slider 2.png'
     },
     {
-        name:'',
-        des:'',
-        img:''
+        name:'Loki',
+        des:'lorem',
+        img:'.images/slider 1.png'
     },
     {
-        name:'',
-        des:'',
-        img:''
+        name:'WandaVision',
+        des:'lorem',
+        img:'.images/slider 3.png'
     }, 
     {
-        name:'',
-        des:'',
-        img:''
+        name:'WandaVision',
+        des:'lorem',
+        img:'.images/slider 2.png'
     },
     {
-        name:'',
-        des:'',
-        img:''
+        name:'WandaVision',
+        des:'lorem',
+        img:'.images/slider 1.png'
     }
 ]
