@@ -13,6 +13,6 @@ let movies = [
         name: 'wanda vision',
         des: 'Lorem ipsum dolor sit amet',
         image: 'images/slider 3.PNG'
-    },
+    }
 /// and so on
 ]
