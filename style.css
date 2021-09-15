@@ -202,7 +202,7 @@ body{
 }
 
 .card-container{
-    position: absolute;
+    position: relative;
     width: 92%;
     padding-left: 10px;
     height: 220px;
