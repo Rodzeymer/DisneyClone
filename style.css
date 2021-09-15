@@ -202,7 +202,7 @@ body{
 }
 
 .card-container{
-    position: relative;
+    position: absolute;
     width: 92%;
     padding-left: 10px;
     height: 220px;
@@ -266,7 +266,7 @@ body{
 
 .des{
     color: #fff;
-    opacity: .8;
+    opacity: 0.8;
     margin: 5px 0;
     font-weight: 500;
     font-size: 12px;

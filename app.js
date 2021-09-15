@@ -50,8 +50,11 @@ for(let i = 0; i < 3; i++){
 }
 
 setInterval(() => {
-    createSlide();
+    //createSlide();
 }, 3000);
+
+
+// Video cards
 
 const videoCards = [...document.querySelectorAll('.video-card')];
 
