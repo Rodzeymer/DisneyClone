@@ -226,7 +226,7 @@ body{
     border-radius: 5px;
     overflow: hidden;
     margin-right: 10px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card-img{
@@ -239,7 +239,7 @@ body{
     transform: scale(1.1);
 }
 
-.car:hover .card-body{
+.car:hover, .card-body{
     opacity: 1;
 }
 
@@ -273,7 +273,7 @@ body{
 }
 
 .watchlist-btn{
-    position: relative;
+    position: absolute;
     width: 100%;
     text-transform: capitalize;
     background: none;
