@@ -1,11 +1,11 @@
 const carousel = document.querySelector('.carousel');
 let sliders = [];
 
-let slideIndex = 0;
+let slideIndex = 1;
 
 const createSlide = () => {
     if (slideIndex >= movies.length){
-        slideIndex = 0;    
+        slideIndex = 1;    
     }
 
 //creating DOM element
