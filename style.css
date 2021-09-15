@@ -320,7 +320,7 @@ body{
     background: linear-gradient(to right, #0c111b 0%, #0c111b00);
 }
 
-.pre-btn{
+.nxt-btn{
     right: 0;
     background: linear-gradient(to left, #0c111b 0%, #0c111b00);
 }
