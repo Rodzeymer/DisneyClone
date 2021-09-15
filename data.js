@@ -1,8 +1,8 @@
 let movies = [
     {
-        name: 'falcon and the winter soldier',
-        des: 'Lorem ipsum dolor sit amet',
-        image: 'images/slider 2.PNG'
+        name: 'Front-End Dev',
+        des: 'Aquele que faz o site funcionar e responder ao usuário',
+        image: 'https://pwiwebstudio.com.br/blog/wp-content/uploads/2018/08/223169-manutencao-de-sites-por-que-e-importante-desde-a-construcao-da-pagina-1024x688.jpg'
     },
     {
         name: 'loki',
@@ -14,5 +14,4 @@ let movies = [
         des: 'Lorem ipsum dolor sit amet',
         image: 'images/slider 3.PNG'
     }
-/// and so on
 ]
