@@ -50,7 +50,7 @@ for(let i = 0; i < 3; i++){
 }
 
 setInterval(() => {
-    //createSlide();
+    createSlide();
 }, 3000);
 
 
