@@ -3,10 +3,9 @@ let sliders = [];
 
 let slideIndex = 0;
 
-const createSlide = () =>{
+const createSlide = () => {
     if (slideIndex >= movies.length){
-        slideIndex = 0;
-    
+        slideIndex = 0;    
     }
 
 //creating DOM element
@@ -58,7 +57,7 @@ for(let i = 0; i < 3; i++){
 
 setInterval(() => {
     createSlide();
-}, 300);
+}, 3000);
     
 
 const videoCards = [...document.querySelectorAll('.video-card')];
