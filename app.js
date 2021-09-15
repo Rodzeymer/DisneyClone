@@ -7,7 +7,9 @@ const createSlide = () =>{
         slideIndex = 0;
     
     }
- //creating DOM element
+
+//creating DOM element
+
     let slide = document.createElement('div');
     let imgElement = document.createElement('img');
     let content = document.createElement('div');
@@ -21,6 +23,7 @@ const createSlide = () =>{
     p.appendChild(document.createTextNode(movies[slideIndex].des));
     content.appendChild(h1);
     content.appendChild(p);
+    slide.appendChild(content);
     slide.appendChild(imgElement);
     carousel.appendChild(slide);
 
