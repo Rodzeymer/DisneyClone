@@ -1,23 +1,21 @@
 const carousel = document.querySelector('.carousel');
 let sliders = [];
 
-let slideIndex = 0;
+let slideIndex = 0; // to track current slide index.
 
 const createSlide = () => {
-    if (slideIndex >= movies.length){
-        slideIndex = 0;    
+    if(slideIndex >= movies.length){
+        slideIndex = 0;
     }
 
-//creating DOM element
-
+    // creating DOM element
     let slide = document.createElement('div');
     let imgElement = document.createElement('img');
     let content = document.createElement('div');
     let h1 = document.createElement('h1');
     let p = document.createElement('p');
 
-// attaching all elements
-
+    // attaching all elements
     imgElement.appendChild(document.createTextNode(''));
     h1.appendChild(document.createTextNode(movies[slideIndex].name));
     p.appendChild(document.createTextNode(movies[slideIndex].des));
@@ -27,13 +25,11 @@ const createSlide = () => {
     slide.appendChild(imgElement);
     carousel.appendChild(slide);
 
-//setting up image
-
+    // setting up image
     imgElement.src = movies[slideIndex].image;
     slideIndex++;
 
-// setting elements classname
-
+    // setting elements classname
     slide.className = 'slider';
     content.className = 'slide-content';
     h1.className = 'movie-title';
@@ -44,11 +40,9 @@ const createSlide = () => {
 
 // adding sliding effect
 
-    if (sliders.lenght){
-        sliders[0].style.marginLeft =
-        `calc(-${100 * (sliders.length - 2)}% - ${30 * 
-            (sliders.length - 2)}px)`;
-    }
+    if(sliders.length){
+        sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${30 * (sliders.length - 2)}px)`;
+    }   
 }
 
 for(let i = 0; i < 3; i++){
@@ -58,7 +52,6 @@ for(let i = 0; i < 3; i++){
 setInterval(() => {
     createSlide();
 }, 3000);
-    
 
 const videoCards = [...document.querySelectorAll('.video-card')];
 
