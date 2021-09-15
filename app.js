@@ -40,6 +40,7 @@ const createSlide = () =>{
     p.className = 'movie-des';
 
     sliders.push(slide);
+}
 
 // adding sliding effect
 
