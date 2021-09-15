@@ -43,6 +43,7 @@ const createSlide = () =>{
     if (sliders.lenght){
         sliders[0].style.marginLeft = 'calc(-${100 * (slider.lenght -2)}% - ${30* (sliders.lenght -2)}px)';
     }
+}
 
     for(let i =0; i<3; i++){
         createSlide();
@@ -50,7 +51,6 @@ const createSlide = () =>{
     setInterval(() => {
         createSlide();}, 3000);
         
-}
 
 const videoCards = [...document.querySelectorAll('.video-card')];
 
