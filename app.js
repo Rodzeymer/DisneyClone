@@ -1,5 +1,6 @@
 const carousel = document.querySelector('.carousel');
 let sliders = [];
+
 let slideIndex = 0;
 
 const createSlide = () =>{
@@ -45,9 +46,9 @@ const createSlide = () =>{
 // adding sliding effect
 
     if (sliders.lenght){
-        sliders[0].style.marginLeft = 
-        `calc(-${100 * (sliders.lenght -2)}%- ${30* 
-            (sliders.lenght -2)}px)`;
+        sliders[0].style.marginLeft =
+        `calc(-${100 * (sliders.length - 2)}% - ${30 * 
+            (sliders.length - 2)}px)`;
     }
 }
 
