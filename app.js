@@ -40,20 +40,22 @@ const createSlide = () =>{
     p.className = 'movie-des';
 
     sliders.push(slide);
-}
+
 
 // adding sliding effect
 
     if (sliders.lenght){
-        sliders[0].style.marginLeft = 'calc(-${100 * (slider.lenght -2)}% - ${30* (sliders.lenght -2)}px)';
+        sliders[0].style.marginLeft = 
+        'calc(-${100 * (slider.lenght -2)}% - ${30* (sliders.lenght -2)}px)';
     }
+}
 
-
-    for(let i =0; i<3; i++){
+    for(let i = 0; i < 3; i++){
         createSlide();
     }
     setInterval(() => {
-        createSlide();}, 3000);
+        createSlide();
+    }, 3000);
         
 
 const videoCards = [...document.querySelectorAll('.video-card')];
